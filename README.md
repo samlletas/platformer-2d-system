@@ -3,16 +3,6 @@ A collision detection and movement system for 2D platformers, the goal of this p
 
 ![demo](https://github.com/samlletas/platformer-2d-system/assets/7089504/531f8023-75cb-47f8-90a4-f3b483c01684)
 
-## Demo
-
-A demo of the example scene can be downloaded from:
-[demo-windows.zip](https://github.com/samlletas/platformer-2d-system/files/13049377/demo-windows.zip)
-
-**Controls:**
-- Move with arrow keys.
-- Jump with space key.
-- Fall through one way platforms (green ones) with space+down.
-
 ## Features
 
 1. Supports moving platforms, slopes and one-way slopes/platforms.
@@ -22,6 +12,16 @@ A demo of the example scene can be downloaded from:
 1. Physics run in Update rather than FixedUpdate, this provides more responsive controls and removes the [issues introduced by rigidbody interpolation](https://www.zubspace.com/blog/smooth-movement-in-unity#about-rigidbody-interpola).
 
     > 💡 The disadvantage of this approach is that the variations in deltatime can cause physics to behave differently depending on the framerate, to reduce the impact of this problem the system handles gravity via [verlet integration](https://youtu.be/hG9SzQxaCm8?si=JYAEVKr-H6HCp65N&t=1314).
+
+## Demo
+
+A demo of the example scene can be downloaded from:
+[demo-windows.zip](https://github.com/samlletas/platformer-2d-system/files/13049377/demo-windows.zip)
+
+**Controls:**
+- Move with arrow keys.
+- Jump with space key.
+- Fall through one way platforms (green ones) with space+down.
 
 ## Setup
 
