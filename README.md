@@ -1,6 +1,8 @@
 # Platformer 2D System
 A collision detection and movement system for 2D platformers, the goal of this project is to provide core functionality to help with the creation of custom character controllers.
 
+![demo](https://github.com/samlletas/platformer-2d-system/assets/7089504/531f8023-75cb-47f8-90a4-f3b483c01684)
+
 ## Features
 
 1. Supports moving platforms, slopes and one-way slopes/platforms.
